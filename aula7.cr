@@ -10,7 +10,7 @@ def calc_terreno(a : UInt32, b : UInt32, c : UInt32)
 
     res = margem * area
 
-    puts res
+    puts "A área do construida é #{area}\nA área total deve ser #{res} com X#{margem} para #{c}\% de margem\n\n"
 
     return res
 end
